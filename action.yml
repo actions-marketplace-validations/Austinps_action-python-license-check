@@ -1,0 +1,7 @@
+# action.yml
+name: 'Python License Info'
+description: 'Outputs dependency license for Python project'
+branding:
+  icon: 'award'
+  color: 'green'
+runs: echo "this is a test" >>"$GITHUB_STEP_SUMMARY"
